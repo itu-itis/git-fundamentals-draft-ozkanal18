@@ -1,0 +1,38 @@
+h1 {
+    font-family: tahoma, helvatica, sans-serif;
+    font-size: 24pt;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    border: thick solid red;
+    padding: 1ex;
+    width: 50%;
+}
+
+em {
+    font-style: normal;
+    color: green;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li:first-child {
+    border:  thick solid green;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1ex;
+    width: 40%;
+}
+
+p.centered {
+    text-align: center;
+    width: 50%;
+}
